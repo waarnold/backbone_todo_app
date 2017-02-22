@@ -1,0 +1,62 @@
+palette = {
+  white: #ffffff,
+  astronaut: #464f77,
+  slate_gray: #6b7292,
+  denim: #148fd5,
+  gulf_blue: #383f5f,
+  link_water: #d3d5df,
+  navy_blue: #148fd5,
+  gainsboro: #e7e7e7,
+  mona_lisa: #ff9999,
+  lavender: #cce0f5,
+  empress: #757575,
+  dark_gray: #b3b3b3,
+}
+
+colors = {
+  sidebar: {
+    default: {
+      bg: palette.astronaut,
+      text: palette.slate_gray,
+    },
+    selected: {
+      bg: palette.gulf_blue,
+      text: palette.white,
+    },
+    header: palette.white,
+  },
+
+  content: {
+    bg: palette.white,
+    add: palette.navy_blue,
+    table: {
+      border: palette.gainsboro,
+      complete: palette.dark_gray,
+      hover: {
+        trash: palette.mona_lisa,
+        text: palette.navy_blue,
+        default: palette.lavender,
+      }
+    },
+  },
+
+  modal: {
+    bg: palette.white,
+    text: palette.empress,
+    button: {
+      bg: palette.denim,
+      text: palette.white,
+    },
+  },
+
+  total: {
+    selected: {
+      bg: palette.denim,
+      text: palette.white,
+    },
+    default: {
+      bg: palette.slate_gray,
+      text: palette.link_water,
+    },
+  },
+}

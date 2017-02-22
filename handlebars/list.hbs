@@ -1,0 +1,8 @@
+<div {{#if selected}}class="selected"{{/if}}>
+  {{#if header}}
+    <span class="header">{{name}}<span></span></span>
+  {{else}}
+    {{#formatDate name}}{{/formatDate}}
+  {{/if}}
+  <span class="total">{{todos.length}}</span>
+</div>
